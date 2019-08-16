@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    background-color: white;
+}
+body::-webkit-scrollbar { 
+    display: none; 
+}
+header {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 110px;
+    font-size: 23px;
+    width: 25%;
+    float: right;
+}
+nav {
+    float: right;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 25px;
+}
+.menu:link, .menu:visited  {
+    text-decoration: none;
+    color: black;
+}
+.menu:hover, .menu:active {
+    text-decoration: underline;
+    color: orange;
+}
+img {
+    width: 58%;
+    float: left;
+}
+.intro {
+
+    text-align: center;
+    padding-top: 220px;
+    padding-right: 120px;
+    padding-left: 70px;
+    padding-bottom: 230px;
+    float: right;
+    width: 28%;
+
+}
+h1 {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 85px;
+}
+h2{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 40px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.box1, .box2 {
+    position: relative;
+    text-align: center;
+    width: 28%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box1{
+    float: left;
+    margin-left: 300px;
+}
+.box2 {
+    float: right;
+    margin-right: 300px;
+}
+.personimg, .bulbimg {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.card1, .card2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.box1:hover .personimg, .box2:hover .bulbimg{
+    filter: brightness(85%);
+
+}
+.box1:hover .card1, .box2:hover .card2{
+    opacity: 1;
+}
+
+
+.button {
+    margin: 15px;
+    border: Solid grey;
+    border-width: 200;
+    border-radius: 5px;
+    color: grey;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:link, .button:visited  {
+    text-decoration: none;
+    color: grey;
+}
+.button:hover, .button:active {
+    background-color: grey;
+    color: orange;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    background-color: white;
+}
+body::-webkit-scrollbar { 
+    display: none; 
+}
+header {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 110px;
+    padding-bottom: 20px;
+    padding-right: 110px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+nav {
+    float: right;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 25px;
+}
+.menu:link, a:visited  {
+    text-decoration: none;
+    color: black;
+}
+.menu:hover, .menu:active {
+    text-decoration: underline;
+    color: orange;
+}
+h2 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 0px 40px 40px 40px;
+
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
